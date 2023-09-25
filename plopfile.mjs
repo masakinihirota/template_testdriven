@@ -1,9 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
-// ESLintのルールを無効にするためのコメントです。import/no-anonymous-default-exportというルールは、デフォルトエクスポートが無名関数である場合に警告を出すルールです。このルールを無効にすることで、このファイルでデフォルトエクスポートが無名関数であっても、警告が出なくなります。
-
-// {{ kebabCase name }} は、plopfile.mjsのnameプロパティをkebab-caseに変換したものです。例えば、nameプロパティが"FooBar"の場合、{{ kebabCase name }}は"foo-bar"になります。
-// {{ pascalCase name }} は、plopfile.mjsのnameプロパティをPascalCaseに変換したものです。例えば、nameプロパティが"foo-bar"の場合、{{ pascalCase name }}は"FooBar"になります。
-
 const pad00 = (num) => String(num).padStart(2, "0");
 
 const date = new Date();
