@@ -10,7 +10,4 @@ export default defineConfig({
     environment: "jsdom",
     include: ["app/**/*.test.{js,ts,jsx,tsx}"],
   },
-  define: {
-    "import.meta.vitest": "undefined",
-  },
 });
