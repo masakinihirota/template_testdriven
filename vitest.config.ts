@@ -6,10 +6,9 @@ import { defineConfig } from "vitest/config";
 export default defineConfig({
   plugins: [react()],
   test: {
-    // globals: true,
-    // environment: "jsdom",
-    // include: ["app/**/*.test.{js,ts,jsx,tsx}"],
-    includeSource: ["app/**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
+    globals: true,
+    environment: "jsdom",
+    include: ["app/**/*.test.{js,ts,jsx,tsx}"],
   },
   define: {
     "import.meta.vitest": "undefined",
